@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fn.css">
+    <style>
+        body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem ;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+}
+.d1{
+    display: flex;
+    align-items: center;
+    
+    /* padding-left: 1rem; */
+    
+
+}
+.logo{
+    height: 50px;width: 50px;
+    border-radius: 25px;
+    
+}
+.hname{
+    padding-left: 1rem;
+    
+}
+.d2{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    
+    
+    
+}
+.n1{
+    padding-left: 1rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(78, 78, 78);
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+.about{
+    display: flex;                                       
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding: 1rem ;
+    background-color: #dad6d63d;
+}
+.qq{
+    display: flex;
+    flex-direction:column;
+    padding: 1rem;
+    justify-content: space-around;
+    
+}
+table{
+    text-align: center;
+}
+
+.skills{
+    display: flex;                                       
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding: 1rem ;
+
+}
+.pds{
+    padding-left: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+    background-color: #dad6d63d;
+}
+.contact {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+footer {
+    text-align: center;
+    padding: 0.5rem 0;
+    background-color: #444;
+    color: white;
+}
+table {
+    text-align: center;border-collapse: collapse;
+    font-size:smaller;overflow-x: auto;
+}
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Expand columns to full width */
+    overflow-x: auto; /* Add horizontal scroll if needed */
+}
+
+/* Style the table */
+table {
+    width: 100%; /* Take up the full width of the container */
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    table {
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="d1">
+            <img class="logo" src="https://cdn1.vectorstock.com/i/1000x1000/08/05/ak-letter-icon-design-on-black-background-vector-34980805.jpg" alt="">
+            <h1 class="hname" >Anay Kachare</h1>
+        </div>
+        <div class="d2">
+            <a class="n1" href="#about">ABOUT</a>
+            <a class="n1" href="#skills">SKILLS</a>
+            <a class="n1" href="#contact">CONTACT</a>
+        </div>
+    </header>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello there! I'm Anay Kachare, a dedicated web developer with a passion for creating exceptional digital experiences. With over 1 years of experience in the field, 
+                I specialize in front-end and back-end development, bringing ideas to life through elegant and functional websites and web applications.</p>
+            
+        </div>
+    </section>
+    
+    <section class="qq"> <h3 style="text-align: center;">Qualification </h3>
+        <div class="table-container">
+        <table>
+            <tr>
+                <th>Qualification</th>
+                <th>Institution</th>
+                <th>Board/university</th>
+                <th>Year</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>B.Tech</td>
+                <td>Saraswati College of
+                    Engineering, Kharghar</td>
+                <td>University of
+                    Mumbai.
+                    </td>
+                <td>2023</td>
+                <td>70%</td>
+            </tr>
+            <tr>
+                <td>HSC</td>
+                <td>KBP college vashi</td>
+                <td>State Board</td>
+                <td>2018</td>
+                <td>60.00%</td>
+            </tr>
+            <tr>
+                <td>SSC</td>
+                <td>SHFHS Koparkhairane</td>
+                <td>CBSE board</td>
+                <td>2016</td>
+                <td>82.00%</td>
+            </tr>
+            
+        </table>
+        </div></section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div>
+                <h3>Technical Skills: </h3>
+                <h5>❖ HTML:
+                ➢ Proficient in creating well-structured and semantically correct HTML markup for building modern and
+                responsive web pages
+                ➢ Have Knowledge in using HTML elements and attributes with its properties to enhance accessibility
+                and improve user experience.
+                ➢ Skilled in incorporating multimedia elements, such as audio and video, while adhering to best practices.
+                ➢ Leveraged Visual Studio Code as the primary development environment to write, debug, and optimize
+                HTML5 code. </h5>
+                <h5>❖ CSS:
+                ➢ Proficient in crafting visually appealing and responsive web designs using CSS.
+                ➢ Good in using various selectors, properties, and units to create consistent layouts and styling across
+                different devices and screen sizes.
+                ➢ Experienced in implementing modern CSS techniques such as flexbox for efficient and flexible designs.
+                ➢ Leveraged Visual Studio Code as the primary development environment to write, debug, and optimize
+                CSS code. </h5>
+                <h5>❖ SQL (STRUCTURED QUERY LANGUAGE)
+                ➢ Having knowledge in writing SQL queries.
+                ➢ Excellent at Performing ‘CRUD’ operations on any RDBMS.
+                ➢ Good in Joins, Sub-queries, Grouping and Functions.
+                ➢ Knowledge on the Statements (DDL, DML, TCL, DCL, DQL).
+                ➢ Written around 400-500 queries on the above topics.
+                ➢ Worked and Practiced Queries on Oracle SQL*Plus. </h5>
+            </div>    
+        </div>
+    </section >
+    <section id="pds" class="pds">
+        <div cass="container">
+            <h3>❖ Personal Details: </h3>
+            <h5>Father’s Name : Ashok Baban Kachare</h5>
+            <h5>Mother’s Name : Varsha Ashok Kachare</h5>
+            <h5>Date of Birth : 27th Nov 1999</h5>
+            <h5>Languages known : English, Hindi, Marathi</h5>
+            <h5>Hobbies : Travel, Spending time with friends.</h5>
+            <h5>Address : Koparkhairane , NaviMumbai 400709 .</h5>
+        </div> 
+    </section >
+    <section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Me</h2><br>
+        <p> kachareanay46@email.com</p>
+        <p>7208404860</p>
+        
+    </div>
+    </section>
+    <footer>
+        <a class="f1" href="https://www.instagram.com/anaayyyyy/?hl=en"><img src="https://i.pinimg.com/736x/21/d6/7f/21d67f1d6b3be5bb2e39395311c77fc6.jpg" style="height: 30px;width: 30px;border-radius: 12px;padding: 5px;"></a>
+        <a class="f1" href="https://in.linkedin.com/in/anay-kachare-469413228"><img src="https://www.pagetraffic.com/blog/wp-content/uploads/2022/09/linkedin-blue-logo-icon.png" style="height: 30px;width: 30px;border-radius: 12px;padding: 5px;"></a>
+        <a class="f1" href="https://m.facebook.com/anay.kachare.3/?hc_ref=ARTB7R1MMPo_AZjUwq-VVheemMDRx-SACT2L6OAbb6PZDoxeQZJe6_4fXYY_cXX53tI&ref=nf_target&locale=ms_MY"><img src="https://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19750.png" style="height: 30px;width: 30px;border-radius: 12px;padding: 5px;"></a>
+    </footer>
+    
+</body>
+</html>
